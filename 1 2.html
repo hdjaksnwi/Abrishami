@@ -1,0 +1,375 @@
+﻿<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <link rel=" shortcut icon" href="C:\Users\Dear User\Desktop\abrishami\logo.jpg" type="image/x-icon" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> تالار ، رستوران ابریشمی - منوی غذا</title>
+    <style>
+        /* استایل کلی */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f5ee;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        
+        /* هدر */
+        header {
+            background-color: #b07b61;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        .logo {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        
+        .slogan {
+            font-style: italic;
+            font-size: 1.2rem;
+        }
+        
+        /* نوار ناوبری */
+        nav {
+            background-color:#531515;
+            padding: 1rem 0;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        nav li {
+            margin: 0 1.5rem;
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #f8d56b;
+        }
+        
+        /* بخش اصلی */
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+        
+        .menu-section {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        
+        h2 {
+            color: #8b4513;
+            border-bottom: 2px solid #e1c265;
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+        
+        h3 {
+            color: #a0522d;
+            margin-top: 1.5rem;
+        }
+        
+        .menu-category {
+            margin-bottom: 1.5rem;
+        }
+        
+        .menu-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .menu-item {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            border-radius: 6px;
+            border-left: 4px solid #e1c265;
+        }
+        
+        .item-name {
+            font-weight: bold;
+            font-size: 1.1rem;
+            color: #333;
+        }
+        
+        .item-price {
+            color: #8b4513;
+            font-weight: bold;
+            margin-top: 0.5rem;
+        }
+        
+        /* فوتر */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+        
+        .contact-info {
+            margin-bottom: 1rem;
+        }
+        
+        .social-links a {
+            color: #f8d56b;
+            margin: 0 0.5rem;
+            text-decoration: none;
+        }
+        
+        /* نسخه موبایل */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav li {
+                margin: 0.5rem 0;
+            }
+            
+            .menu-items {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- هدر سایت -->
+    <header>
+        <div class="logo">ABRISHAMI RESTAURANT HALL</div>
+        <div class="slogan">تالار ، رستوران ابریشمی - تجربه‌ای از طعم‌های اصیل </div>
+    </header>
+    
+    <!-- نوار ناوبری -->
+    <nav>
+        <ul>
+            <li><a href="#main-courses">منوی ایرانی</a></li>
+            <li><a href="#appetizers">منوی فرنگی</a></li>
+            <li><a href="#appetizers">پیش غذا</a></li>
+            <li><a href="#drinks">نوشیدنی‌</a></li>
+            <li><a href="#contact">تماس با ما</a></li>
+        </ul>
+    </nav>
+    
+    <!-- محتوای اصلی -->
+        <!-- منوی ایرانی -->
+        <section id="main-courses" class="menu-section">
+            <h2>منوی ایرانی</h2>
+
+            <div class="menu-items">
+                <div class="menu-item">
+                    <div class="item-name">شامی شاب</div>
+                    <div class="item-price">620,000 هزار تومان</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">اکبر جوجه</div>
+                    <div class="item-price">360,000  هزار تومان</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">قفقازی</div>
+                    <div class="item-price">490,000 هزار تومانن</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">جوجه با استخوان</div>
+                    <div class="item-price">340,000 هزار تومان</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">جوجه بی استخوان فقط سینه</div>
+                    <div class="item-price">290,000 هزار تومان</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">جوجه بی استخوان فقط ران</div>
+                    <div class="item-price">290,000 هزار تومان</div>
+                    </div>
+                <div class="menu-item">
+                    <div class="item-name">(میکس جوجه بی استخوان(سینه با کوبیده</div>
+                    <div class="item-price">510,000 هزار تومان</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">(میکس جوجه بی استخوان(ران با کوبیده</div>
+                    <div class="item-price">510,000 هزار تومان</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">میکس جوجه با استخوان( با کوبیده)</div>
+                    <div class="item-price">540,000 هزار تومان</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-name">کوبیده نگینی تک سیخ</div>
+                    <div class="item-price">330,000 هزار تومان</div></div>
+                    <div class="menu-item">
+                        <div class="item-name">کوبیده نگینی </div>
+                        <div class="item-price">490,000 هزار تومان</div></div>
+
+                        <div class="menu-item">
+                            <div class="item-name">کوبیده لقمه</div>
+                            <div class="item-price">490,000 هزار تومان</div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-name">کوبیده  دو سیخ</div>
+                            <div class="item-price">450,000 هزار تومان</div>
+                            </div>
+    <div class="menu-item">
+        <div class="item-name">کوبیده  بناب نگین دار</div>
+        <div class="item-price">530,000 هزار تومان</div>
+    </div>
+    <div class="menu-item">
+        <div class="item-name">کوبیده بناب</div>
+        <div class="item-price">490,000 هزار تومان</div>
+    </div>
+                <div class="menu-item">
+    <div class="item-name">کباب بختیاری</div>
+    <div class="item-price">490,000 هزار تومان</div>
+                    </div>
+<div class="menu-item">
+    <div class="item-name">کباب برگ</div>
+    <div class="item-price">470,000 هزار تومان</div>
+    </div>
+                        <div class="menu-item">
+    <div class="item-name">کباب  سلطانی</div>
+    <div class="item-price">560,000 هزار تومان</div>
+            </div>
+<div class="menu-item">
+    <div class="item-name"> خورشت قورمه سبزی</div>
+    <div class="item-price">280,000 هزار تومان</div>
+                        </div>
+            <div class="menu-item">
+    <div class="item-name">خورشت قیمه و سیب زمینی و بادمجان</div>
+    <div class="item-price">280,000 هزار تومان</div>
+                </div>
+<div class="menu-item">
+    <div class="item-name">ته دیگ خورشتی</div>
+    <div class="item-price">270,000 هزار تومان</div>
+</div>
+</section>
+        <!-- منوی فرنگی -->
+        <section id="main-courses" class="menu-section">
+            <h2>منوی فرنگی</h2>
+
+            <div class="menu-items">
+                <div class="menu-item">
+                    <div class="item-name">استیک گوشت با سس مخصوص</div>
+                    <div class="item-price">650,000 هزار تومان</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">استیک مرغ با سس مخصوص</div>
+                    <div class="item-price">340,000 هزار تومان</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">شنیسل مرغ</div>
+                    <div class="item-price">340,000 هزار تومان</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">رویال برگر</div>
+                    <div class="item-price">420,000 هزار تومان</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">خوراک فایتا مخصوص مرغ    </div>
+                    <div class="item-price">400,000 هزار تومان</div>
+                </div>
+            </div>
+        </section>
+        <!-- بخش پیش غذاها -->
+        <section id="appetizers" class="menu-section">
+            <h2>پیش غذا</h2>
+
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-name">جوجه چینی</div>
+                        <div class="item-price">290,000 هزار تومان</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">بال مکزیکی</div>
+                        <div class="item-price">270,000 هزار تومان</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">بال سوخاری</div>
+                        <div class="item-price">260,000 هزار تومان</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">سیب زمینی</div>
+                        <div class="item-price">180,000 هزار تومان</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">سیب زمینی (ویژه)</div>
+                        <div class="item-price">260,000 هزار تومان</div>
+                    </div>
+                </div>
+           
+    </section>
+    <!--بخش سالاد-->
+            <section id="salad" class="menu-section">
+                <h2>سالاد</h2>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="item-name">سالاد شیرازی</div>
+                                <div class="item-price">60,000 هزار تومان</div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">سالاد کلم</div>
+                                <div class="item-price">60,000 هزار تومان</div>
+                        </div>
+                            </div>
+            </section>
+        
+             <!-- بخش نوشیدنی‌ها -->
+        <section id="drinks" class="menu-section">
+            <h2>نوشیدنی‌ها</h2>
+            
+            <div class="menu-items">
+                <div class="menu-item">
+                    <div class="item-name">آب معدنی</div>
+                    <div class="item-price">7,000 هزار تومان</div>
+                    </div>
+                <div class="menu-item">
+                    <div class="item-name">انواع دلستر</div>
+                    <div class="item-price">40,000 هزار تومان</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name">انواع نوشابه</div>
+                    <div class="item-price">40,000 هزار تومان</div>
+                </div>
+                          </div> 
+        </section>
+    
+    <!-- فوتر سایت -->
+    <footer id="contact">
+        <div class="contact-info">
+            <p>آدرس: تهران، خیابان نمونه، پلاک ۱۲۳</p>
+            <p>تلفن : 88994963  
+         - 09127969526
+           - 09122382745</p>
+            <p>ساعات کاری: هر روز از 10 صبح تا ۱۱ شب</p>
+        </div>
+        <div class="social-links">
+            <a href="#">اینستاگرام</a>
+        </div>
+        <p>© ۲۰۲۳  تالار،رستوران ابریشمی. تمام حقوق محفوظ است.</p>
+    </footer>
+</body>
+</html>
